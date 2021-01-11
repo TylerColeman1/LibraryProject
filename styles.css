@@ -1,0 +1,122 @@
+.TotalLibraryPage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightblue;
+    width: 100%;
+    height: 20%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.Welcome {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.New-Book {
+    margin-bottom: 1%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    border-radius: 10%;
+    font-size: x-large;
+    box-shadow: 0px 0px 20px rgb(168, 167, 167);
+    width: 19vw;
+
+}
+
+.form-container {
+    background-color: lightblue;
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap; /* Had display flex but it made it look bad */
+    position: fixed;
+    border-style: solid;
+    border-color: black;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .formTitle, .formAuthor, .formNumpages, .formSubmit {
+    font-size: x-large;
+    height: 10%;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .totalCheckbox {
+    font-size: x-large;
+    height: 10%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  
+.completeLibrary {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+.bookPage {
+    background-color: rgb(201, 233, 243);
+    margin-top: 2em;
+    margin-left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 40%;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    border-radius: 10%;
+    font-size: x-large;
+    box-shadow: 0px 0px 20px rgb(168, 167, 167);
+    justify-content: center;
+}
+
+.bookTitle {
+    width: 80%;
+    height: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 33px;
+}
+
+.bookAuthor, .bookNumpages {
+    width: 80%;
+    height: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.bookRead, .removeBookPage {
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin-left: 4%; /* this is janky */ 
+}
